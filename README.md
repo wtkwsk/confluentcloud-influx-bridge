@@ -8,3 +8,5 @@
 | CC_GROUP | Consumer-group used by telegraf |
 | CC_API_KEY | Confluent Cloud API KEY |
 | CC_API_SECRET | Confluent Cloud API SECRET |
+| INFLUX_URL | The full HTTP or UDP URL for your InfluxDB instance |
+| INFLUX_DB | The target database |
