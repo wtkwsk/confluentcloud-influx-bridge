@@ -14,3 +14,4 @@ Find the corresponding docker images on [DockerHub](https://hub.docker.com/r/wtk
 | INFLUX_DB | The target database |
 | INFLUX_USER | Username for HTTP Basic Auth |
 | INFLUX_PW | Password for HTTP Basic Auth |
+| CC_DATA_FORMAT | Data format to consume, see: https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md | 
