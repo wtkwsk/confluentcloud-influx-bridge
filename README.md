@@ -14,4 +14,10 @@ Find the corresponding docker images on [DockerHub](https://hub.docker.com/r/wtk
 | INFLUX_DB | The target database |
 | INFLUX_USER | Username for HTTP Basic Auth |
 | INFLUX_PW | Password for HTTP Basic Auth |
-| CC_DATA_FORMAT | Data format to consume, see: https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md | 
+| JSON_DATA_FORMAT | Data format to consume, see: https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md |
+| JSON_TIME_KEY | Time key is the key containing the time that should be used to create the |
+| JSON_TIME_FORMAT | https://golang.org/pkg/time/#Time.Format |
+| JSON_STRING_FIELDS | Glob pattern strings or booleans keys that should be added as string fields.|
+| JSON_TAG_KEYS | Tag keys is an array of keys that should be added as tags. Matching keysare no longer saved as fields. Supports wildcard glob matching. |
+
+For the JSON_* config refer to [this](https://github.com/influxdata/telegraf/tree/master/plugins/parsers/json)
