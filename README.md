@@ -10,3 +10,5 @@
 | CC_API_SECRET | Confluent Cloud API SECRET |
 | INFLUX_URL | The full HTTP or UDP URL for your InfluxDB instance |
 | INFLUX_DB | The target database |
+| INFLUX_USER | Username for HTTP Basic Auth |
+| INFLUX_PW | Password for HTTP Basic Auth |
