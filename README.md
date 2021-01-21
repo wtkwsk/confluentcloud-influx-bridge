@@ -1,6 +1,6 @@
 # Telegraf for ingesting messages from Confluent Cloud to InfluxDB
 
-Find the corresponding docker images on [DockerHub](https://hub.docker.com/r/wtkw/telegraf-cc-influx)
+Find the corresponding docker images on [DockerHub](https://hub.docker.com/r/wtkwsk/telegraf-cc-influxdb)
 
 ## Configuration
 | ENV-VAR | Desc |
